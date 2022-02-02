@@ -29,7 +29,11 @@ function calculatePlates(weight) {
         twoFive = Math.floor(weight / 2.5);
         weight = weight - (twoFive * 2.5);
     }
+    
+    return [fourtyFive, twentyFive, ten, five, twoFive];
+}
 
+function getWeights(fourtyFive, twentyFive, ten, five, twoFive){
     if (fourtyFive > 0) {
         console.log('45 x ' + fourtyFive);
     }
@@ -49,7 +53,6 @@ function calculatePlates(weight) {
     if (twoFive > 0) {
         console.log('2.5 x ' + twoFive);
     }
-
 }
 
 function calculateWorkingSet() {
