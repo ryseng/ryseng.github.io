@@ -1,12 +1,6 @@
-<style>
-    * {
-      font-family: Verdana;
-    }
-</style>
-
-
 body {
   margin:40px;
+  font-family:Verdana;
 }
 * {
   box-sizing: border-box;
