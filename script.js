@@ -1,5 +1,4 @@
 function calculatePlates(weight) {
-
     fourtyFive = 0;
     twentyFive = 0;
     ten = 0;
@@ -53,12 +52,11 @@ function calculatePlates(weight) {
 
 }
 
-function calculateWorkingSet()
-{
-        num1 = document.getElementById("oneRepMax").value;
-        num2 = document.getElementById("setPercent").value;
-        weight = (((num1*(num2*.01))-45)/2);
-        document.getElementById("result").innerHTML = weight;
-        document.getElementById("plates").innerHTML = calculatePlates(weight);
-        
+function calculateWorkingSet() {
+    num1 = document.getElementById("oneRepMax").value;
+    num2 = document.getElementById("setPercent").value;
+    weight = (((num1 * (num2 * .01)) - 45) / 2);
+    document.getElementById("result").innerHTML = weight;
+    document.getElementById("plates").innerHTML = calculatePlates(weight);
+
 }
