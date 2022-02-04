@@ -1,6 +1,6 @@
 .qfc-container {
-	  --form-theme-color: mediumaquamarine;
-	  --form-bg-color   : white;
+	  --form-theme-color: black;
+	  --form-bg-color   : black;
 	  --button-hover    : gray;
 	  --input-text-color: black;
  }
