@@ -60,6 +60,13 @@ function calculateWorkingSet() {
     num2 = document.getElementById("setPercent").value;
     weight = (((num1 * (num2 * .01)) - 45) / 2);
     document.getElementById("result").innerHTML = weight;
-    document.getElementById("plates").innerHTML = calculatePlates(weight);
+
+    plates = calculatePlates(weight);
+
+    document.getElementById("fourtyFive").innerHTML = plates[0];
+    document.getElementById("twentyFive").innerHTML = plates[1];
+    document.getElementById("ten").innerHTML = plates[2];
+    document.getElementById("five").innerHTML = plates[3];
+    document.getElementById("twoFive").innerHTML = plates[4];
 
 }
